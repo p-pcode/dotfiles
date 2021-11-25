@@ -100,3 +100,4 @@ inoremap { {}<Esc>i
 inoremap {<CR> {<CR>}<Esc>O
 inoremap ' ''<esc>i
 inoremap " ""<esc>i
+let g:toggleterm_terminal_mapping = '<C-t>'

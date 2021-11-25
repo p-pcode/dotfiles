@@ -30,6 +30,9 @@ if has("nvim")
         \ 'for': ['javascript', 'typescript', 'typescriptreact', 'css', 'less', 'html', 'jsx', 'tsx',
         \ 'json', 'svelte']} 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'joshdick/onedark.vim'
+  Plug 'akinsho/toggleterm.nvim'
+  Plug 'github/copilot.vim'
 endif
 
 

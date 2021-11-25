@@ -27,7 +27,7 @@ set nohlsearch
 set noswf
 set rnu
 "let loaded_matchparen = 1
-set shell=fish
+set shell=zsh
 set backupskip=/tmp/*,/private/tmp/*
 
 let mapleader=" "
@@ -102,7 +102,7 @@ au BufNewFile,BufRead *.tsx setf typescriptreact
 " Markdown
 au BufNewFile,BufRead *.md set filetype=markdown
 " Flow
-au BufNewFile,BufRead *.flow set filetype=javascript
+" au BufNewFile,BufRead *.flow set filetype=javascript
 
 set suffixesadd=.js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md
 
@@ -135,15 +135,16 @@ let g:python3_host_prog = '/usr/bin/python3'
 if exists("&termguicolors") && exists("&winblend")
   syntax enable
   " set termguicolors
-  set notgc
-  set winblend=0
-  set wildoptions=pum
-  set pumblend=5
-  set background=dark
+  "set notgc
+  ""set winblend=0
+  ""set wildoptions=pum
+  ""set pumblend=5
+  ""set background=dark
   " Use NeoSolarized
-  let g:neosolarized_termtrans=1
+  " let g:neosolarized_termtrans=1
   " runtime ./colors/NeoSolarized.vim
-  colorscheme wal
+  " colorscheme wal
+  colorscheme onedark
 endif
 
 "}}}
